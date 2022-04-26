@@ -1,0 +1,296 @@
+body {
+  background: var(--background-primary-color);
+}
+
+section {
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 1366px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.controller-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.controller-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+span {
+  font-family: 'Montserrat';
+}
+
+
+#navbar {
+  background: var(--background-primary-color);
+  border-bottom: 1px solid #d6d6d6;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+}
+
+#home {
+  padding-top: 120px;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.nav-items {
+  padding: 2px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.text-navbar {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 3px solid var(--background-secondary-color);
+}
+
+
+
+.hero-section img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.hero-title {
+  margin: 120px auto 20px auto;
+  display: block;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.hero-title-variation {
+  margin: 0 auto 50px auto;
+  display: block;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: 'Pacifico';
+}
+
+.hero-span {
+  color: var(--background-secondary-color);
+  font-family: 'Pacifico';
+  font-weight: 400;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.destination-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination-item img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.destination-info {
+  background-color: var(--primary-color);
+  padding: 30px 0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.destination-title {
+  font-size: 24px;
+  color: var(--background-primary-color);
+  font-weight: bold;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.destination-button {
+  font-size: 20px;
+  color: var(--background-primary-color);
+  font-weight: bold;
+  padding: 20px;
+  font-family: 'Montserrat';
+}
+
+.destination-button-icon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.hotels {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.hotel-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.hotel-item img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hotel-info {
+  background-color: var(--background-secondary-color);
+  padding: 30px 0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.hotel-title {
+  font-size: 24px;
+  color: #0e0a39;
+  font-weight: 800;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.hotel-button {
+  font-size: 20px;
+  color: #0e0a39;
+  font-weight: bold;
+  padding: 20px;
+  font-family: 'Montserrat';
+}
+
+.hotel-button-icon {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--background-primary-color);
+  padding: 20px;
+}
+
+.copy {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width:1023px) {
+ 
+
+  .hero-title {
+    margin: 240px 0px 0px 0px; 
+    font-size: 30px;
+  }
+
+  .hero-section img {
+    max-width: 90%;
+  }
+
+  .destinations {
+    display: block;
+  }
+
+  .destination-item {
+    margin-top: 35px;
+  }
+
+  .hotels {
+    display: block;
+  }
+
+  .hotel-item {
+    margin-top: 35px;
+  }
+}
+
+.tools {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100%;
+  left: calc(100% - 145px);
+  border: 1px solid #d6d6d6;
+  border-radius: 0px 0px 8px 8px;
+  overflow: hidden;
+}
+
+.tools__item {
+  border-right: 1px solid #d6d6d6 ;
+}
+
+.tools__item button {
+  background-color: var(--background-primary-color);
+  padding: 8px 8px 6px 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.tools__item img {
+  max-width: 24px;
+}

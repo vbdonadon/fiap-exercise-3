@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://on.fiap.com.br/favicon.ico%22%3E" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel=" preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="controller-between">
+            <div class="column">
+              <img
+                src="assets/logo.png"
+                class="logo images__contrast"
+                alt="Logo do Projeto Gulliver Traveller"
+              />
+            </div>
+            <div class="column">
+              <ul class="ul-nav">
+                <li>
+                  <a href="#home" class="nav-items">
+                    <p class="text-navbar">INÍCIO</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#destinos" class="nav-items">
+                    <p class="text-navbar">DESTINOS</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#hobbies" class="nav-items">
+                    <p class="text-navbar">CIDADES</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#contato" class="nav-items">
+                    <p class="text-navbar">CONTATO</p>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="tools">
+                <li class="tools__item">
+                  <button href="#" data-micromodal-trigger="modal-2">
+                    <img
+                      src="assets/icons/font.png"
+                      aria-label="Aumentar ou diminuir o tamanho da fonte"
+                      class="images__contrast"
+                      aria-hidden="true"
+                    />
+                  </button>
+                </li>
+
+                <li class="tools__item">
+                  <button href="#" class="contrast">
+                    <img
+                      src="assets/icons/contrast.png"
+                      aria-label="Ativar alto contraste"
+                      class="images__contrast"
+                      aria-hidden="true"
+                    />
+                  </button>
+                </li>
+
+                <li class="tools__item">
+                  <button href="#" data-micromodal-trigger="modal-1">
+                    <img
+                      src="assets/icons/question-mark-draw.png"
+                      aria-label="Saiba mais sobre a acessibilidade do nosso site"
+                      class="images__contrast"
+                      aria-hidden="true"
+                    />
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="">
+        <h1 class="hero-title">
+          A viagem dos seus sonhos <span class="hero-span">começa aqui</span>
+        </h1>
+        <img
+          src="assets/hero.png"
+          alt="Imagem de dois homens viajantes rindo e olhando para paisagem em fundo laranja"
+        />
+      </div>
+    </section>
+
+    <section id="destinos">
+      <h1 class="hero-title-variation">
+        Principais<span class="hero-span"> Destinos</span>
+      </h1>
+
+      <div class="container">
+        <div class="destinations">
+          <div class="destination-item">
+            <img
+              src="assets/sao-paulo.png"
+              alt="Imagem da Ponte Estaida da Cidade de São Paulo"
+            />
+            <div class="destination-info">
+              <span class="destination-title">SÃO PAULO</span>
+
+              <div class="destination-button-icon">
+                <a href="#" class="destination-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/uohxpdow.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#e88c30"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="destination-item">
+            <img
+              src="assets/rio-de-janeiro.png"
+              alt="Imagem área do Pão de Açucar do Rio de Janeiro"
+            />
+            <div class="destination-info">
+              <span class="destination-title">RIO DE JANEIRO</span>
+
+              <div class="destination-button-icon">
+                <a href="#" class="destination-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/uohxpdow.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#e88c30"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="destination-item">
+            <img
+              src="assets/salvador.png"
+              alt="Imagem do Fitilhos Caracteristicos de Salvador"
+            />
+            <div class="destination-info">
+              <span class="destination-title">SALVADOR</span>
+
+              <div class="destination-button-icon">
+                <a href="#" class="destination-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/uohxpdow.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#e88c30"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="destination-item">
+            <img
+              src="assets/brasilia.png"
+              alt="Imagens dos Principais Pontos Turisticos de Brasilia"
+            />
+            <div class="destination-info">
+              <span class="destination-title">BRASÍLIA</span>
+
+              <div class="destination-button-icon">
+                <a href="#" class="destination-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/uohxpdow.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#e88c30"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hoteis">
+      <h1 class="hero-title-variation">
+        Principais<span class="hero-span">Hotéis</span>
+      </h1>
+
+      <div class="container">
+        <div class="destinations">
+          <div class="hotel-item">
+            <img src="assets/ibis.png" alt="Imagem do Hotel Ibis" />
+            <div class="hotel-info">
+              <span class="hotel-title">IBIS</span>
+
+              <div class="hotel-button-icon">
+                <a href="#" class="hotel-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/zpqishmx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#1b1464"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotel-item">
+            <img src="assets/fasano.png" alt="Imagem do Hotel fasano" />
+            <div class="hotel-info">
+              <span class="hotel-title">FASANO</span>
+
+              <div class="hotel-button-icon">
+                <a href="#" class="hotel-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/zpqishmx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#1b1464"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotel-item">
+            <img src="assets/unique.png" alt="Imagem do Hotel Unique" />
+            <div class="hotel-info">
+              <span class="hotel-title">UNIQUE</span>
+
+              <div class="hotel-button-icon">
+                <a href="#" class="hotel-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/zpqishmx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#1b1464"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotel-item">
+            <img
+              src="assets/renaissance.png"
+              alt="Imagem do Hotel Renaissance"
+            />
+            <div class="hotel-info">
+              <span class="hotel-title">RENAISSANCE</span>
+
+              <div class="hotel-button-icon">
+                <a href="#" class="hotel-button">SAIBA MAIS</a>
+                <lord-icon
+                  src="https://cdn.lordicon.com/zpqishmx.json"
+                  trigger="loop"
+                  colors="primary:#ffffff,secondary:#1b1464"
+                  stroke="35"
+                  style="width: 70px; height: 70px"
+                >
+                </lord-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <span class="copy"
+          >© Gulliver Travaller | Desenvolvido por Matheus Medeiros Martins
+          Pereira & Vinicius Bium Donadon</span
+        >
+        <span class="copy"
+          >Atividade realizada pela supervisão da faculdade FIAP</span
+        >
+      </div>
+    </footer>
+
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div
+          class="modal__container"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-1-title"
+        >
+          <header class="modal__header">
+            <h2 class="modal__title" id="modal-1-title">
+              Acessibilidade em nosso site!
+            </h2>
+            <button
+              class="modal__close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </header>
+          <main class="modal__content" id="modal-1-content">
+            <h2 class="modal__title">Estrutura do HTML</h2>
+            <p>
+              HTML semântico é o uso de marcação HTML para reforçar a semântica,
+              ou significado, das informações em páginas da Web e aplicativos da
+              Web, em vez de meramente definir sua apresentação ou aparência.
+            </p>
+            <p>
+              Leitores de Tela também são extremamente beneficiados por um HTML
+              semântico, utilizando as TAGs do HTML corretamente, ajuda o leitor
+              de tela a passar a informação mais clara para os usuários.
+            </p>
+
+            <h2 class="modal__title">Teclas de Atalhos</h2>
+            <p>
+              As teclas de atalho ajudando na navegação do usuário para os
+              conteúdos principais do site, como menu principal, conteúdo e
+              rodapé
+            </p>
+
+            <h2 class="modal__title">Alto contraste</h2>
+            <p>
+              Alto contraste é uma opção para pessoas com médio ou grande
+              déficit visual. Deixa o fundo da página totalmente preto com as
+              letras em branco, podendo ser associado à troca do tamanho das
+              letras.
+            </p>
+
+            <h2 class="modal__title">Aumentar/Diminuir a Fonte</h2>
+            <p>
+              Aumentar tamanho das letras, com uma única possibilidade de
+              aumento, suficientemente grande para inúmeras pessoas com déficit
+              visual limitado. Esta opção de acessibilidade é para todas as
+              páginas do site, não sendo necessário voltar a aumentar o tamanho
+              das letras a cada página visitada. Quando acionado, em seu lugar
+              aparece o texto "Tamanho Original", que faz o retorno. Todas as
+              vezes que se voltar ao site as letras estarão no tamanho escolhido
+              na última visita;
+            </p>
+          </main>
+
+          <button
+            class="modal__btn"
+            data-micromodal-close
+            aria-label="Close this dialog window"
+          >
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div
+          class="modal__container"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-2-title"
+        >
+          <header class="modal__header">
+            <h2 class="modal__title" id="modal-2-title">Tamanho do Texto</h2>
+            <button
+              class="modal__close"
+              aria-label="Close modal"
+              data-micromodal-close
+            ></button>
+          </header>
+          <main class="modal__content" id="modal-2-content">
+            <p>
+              Para aumentar ou diminuir a fonte no nosso site, utilize os
+              atalhos Ctrl+ (para aumentar) e Ctrl- (para diminuir) no seu
+              teclado.
+            </p>
+          </main>
+
+          <button
+            class="modal__btn"
+            data-micromodal-close
+            aria-label="Close this dialog window"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/contrast.js"></script>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script>
+      MicroModal.init();
+    </script>
+  </body>
+</html>

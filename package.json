@@ -1,0 +1,11 @@
+{
+  "name": "a11y-dialog-v7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "a11y-dialog": "7.3.0",
+    "focusable-selectors": "0.3.0"
+  },
+  "keywords": []
+}
